@@ -1,0 +1,11 @@
+@EnglishNumerals.Api_HostAddress = http://localhost:5147
+
+GET {{EnglishNumerals.Api_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{EnglishNumerals.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
